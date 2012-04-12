@@ -16,7 +16,7 @@ import ui.util.TimerScript;
 
 /**
  *
- * @author Salim
+ * @author Salim khan
  */
 public class CommunicationNetworkJPanel extends javax.swing.JPanel {
 
