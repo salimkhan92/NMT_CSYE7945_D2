@@ -1,25 +1,25 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+* To change this template, choose Tools | Templates
+* and open the template in the editor.
+*/
 package business.bean;
 
 /**
- *
- * @author btapiawa
- */
+*
+* @author btapiawa
+*/
 public class CommObj {
-    private int msgId;
-    private int targetNode;
-    private int srcNode;
-    private int nodeType;
-    private String fieldType;
+    private int MsgId;
+    private int TargetNode;
+    private int SrcNode;
+    private int NodeType;
+    private String FieldType;
     private Object Data;
-    private long timeSent;
-    private long timeRec;
-    private int priority;
-    private boolean ack;
-
+    private long TimeSend;
+    private long TimeRec;
+    private int Priority;
+    private boolean Ack;
+    
     public Object getData() {
         return Data;
     }
@@ -29,80 +29,80 @@ public class CommObj {
     }
 
     public boolean isAck() {
-        return ack;
+        return Ack;
     }
 
-    public void setAck(boolean ack) {
-        this.ack = ack;
+    public void setAck(boolean Ack) {
+        this.Ack = Ack;
     }
 
     public String getFieldType() {
-        return fieldType;
+        return FieldType;
     }
 
-    public void setFieldType(String fieldType) {
-        this.fieldType = fieldType;
+    public void setFieldType(String FieldType) {
+        this.FieldType = FieldType;
     }
 
     public int getMsgId() {
-        return msgId;
+        return MsgId;
     }
 
-    public void setMsgId(int msgId) {
-        this.msgId = msgId;
+    public void setMsgId(int MsgId) {
+        this.MsgId = MsgId;
     }
 
     public int getNodeType() {
-        return nodeType;
+        return NodeType;
     }
 
-    public void setNodeType(int nodeType) {
-        this.nodeType = nodeType;
+    public void setNodeType(int NodeType) {
+        this.NodeType = NodeType;
     }
 
     public int getPriority() {
-        return priority;
+        return Priority;
     }
 
-    public void setPriority(int priority) {
-        this.priority = priority;
+    public void setPriority(int Priority) {
+        this.Priority = Priority;
     }
 
     public int getSrcNode() {
-        return srcNode;
+        return SrcNode;
     }
 
-    public void setSrcNode(int srcNode) {
-        this.srcNode = srcNode;
+    public void setSrcNode(int SrcNode) {
+        this.SrcNode = SrcNode;
     }
 
     public int getTargetNode() {
-        return targetNode;
+        return TargetNode;
     }
 
-    public void setTargetNode(int targetNode) {
-        this.targetNode = targetNode;
+    public void setTargetNode(int TargetNode) {
+        this.TargetNode = TargetNode;
     }
 
     public long getTimeRec() {
-        return timeRec;
+        return TimeRec;
     }
 
-    public void setTimeRec(long timeRec) {
-        this.timeRec = timeRec;
+    public void setTimeRec(long TimeRec) {
+        this.TimeRec = TimeRec;
     }
 
-    public long getTimeSent() {
-        return timeSent;
+    public long getTimeSend() {
+        return TimeSend;
     }
 
-    public void setTimeSent(long timeSent) {
-        this.timeSent = timeSent;
+    public void setTimeSent(long TimeSend) {
+        this.TimeSend = TimeSend;
     }
     
     @Override
     public boolean equals(Object others)
     {
             return super.equals(others);
-    }   
+    }
 }
